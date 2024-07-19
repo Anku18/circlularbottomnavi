@@ -1,0 +1,19 @@
+name: circular_bottom_navigation
+description: Circular Bottom Navigation (or maybe a tab bar)
+version: 2.3.0
+homepage: https://github.com/benyaminbeyzaie/circular_bottom_navigation
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_lints: ^1.0.4
+
+  flutter_test:
+    sdk: flutter
