@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   // List<TabItem> tabItems = [];
   List<TabItem> tabItems = List.of([
     TabItem(
-      "",
+      "assets/svg/example.svg",
       "Home",
       Colors.blue,
       labelStyle: TextStyle(
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     ),
     TabItem(
-      "// Icons.search,",
+      "assets/svg/example.svg",
       "Search",
       Colors.orange,
       labelStyle: TextStyle(
@@ -57,13 +57,13 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     ),
     TabItem(
-      "",
+      "assets/svg/example.svg",
       "Reports",
       Colors.red,
       circleStrokeColor: Colors.black,
     ),
     TabItem(
-      "",
+      "assets/svg/example.svg",
       "Notifications",
       Colors.cyan,
     ),
