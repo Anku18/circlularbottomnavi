@@ -37,37 +37,37 @@ class _MyHomePageState extends State<MyHomePage> {
   int selectedPos = 0;
 
   double bottomNavBarHeight = 60;
-  List<TabItem> tabItems = [];
-  // List<TabItem> tabItems = List.of([
-  //   TabItem(
-  //     // Icons.home,
-  //     "Home",
-  //     Colors.blue,
-  //     labelStyle: TextStyle(
-  //       fontWeight: FontWeight.normal,
-  //     ),
-  //   ),
-  //   TabItem(
-  //     // Icons.search,
-  //     "Search",
-  //     Colors.orange,
-  //     labelStyle: TextStyle(
-  //       color: Colors.red,
-  //       fontWeight: FontWeight.bold,
-  //     ),
-  //   ),
-  //   TabItem(
-  //     // Icons.layers,
-  //     "Reports",
-  //     Colors.red,
-  //     circleStrokeColor: Colors.black,
-  //   ),
-  //   TabItem(
-  //     Icons.notifications,
-  //     "Notifications",
-  //     Colors.cyan,
-  //   ),
-  // ]);
+  // List<TabItem> tabItems = [];
+  List<TabItem> tabItems = List.of([
+    TabItem(
+      "",
+      "Home",
+      Colors.blue,
+      labelStyle: TextStyle(
+        fontWeight: FontWeight.normal,
+      ),
+    ),
+    TabItem(
+      "// Icons.search,",
+      "Search",
+      Colors.orange,
+      labelStyle: TextStyle(
+        color: Colors.red,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+    TabItem(
+      "",
+      "Reports",
+      Colors.red,
+      circleStrokeColor: Colors.black,
+    ),
+    TabItem(
+      "",
+      "Notifications",
+      Colors.cyan,
+    ),
+  ]);
 
   late CircularBottomNavigationController _navigationController;
 
